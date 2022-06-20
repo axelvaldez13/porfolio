@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 export const Paragraph = styled.p`
@@ -45,21 +44,3 @@ export const Title = styled.h3`
   font: 600 1.5rem/2rem -apple-system, BlinkMacSystemFont, sans-serif;
   color: ${props => props.theme.color.white};
 `
-
-export const SectionTitle = ({ title, section }) => {
-  const Wrapper = styled.div`
-    p {
-      margin-right: 1rem;
-    }
-    @media screen and (min-width: 768px) {
-      display: flex;
-      align-items: end;
-    }
-  `
-  return (
-    <Wrapper>
-      <Paragraph bold={true}>{section}</Paragraph>
-      <Subheading>{title}</Subheading>
-    </Wrapper>
-  )
-}

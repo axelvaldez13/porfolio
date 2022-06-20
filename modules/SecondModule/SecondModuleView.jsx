@@ -1,5 +1,6 @@
 import React from 'react'
-import { Paragraph, SectionTitle, SpanParagraph, Title } from '@sharedComponents/Fonts'
+import { Paragraph, SpanParagraph, Title } from '@sharedComponents/Fonts'
+import { SectionTitle } from '@sharedComponents/Headings'
 import { Container } from '@sharedComponents/Layout'
 import { HeroImage, Hero, HeroContent, SkillsGrid } from './SecondModuleStyles'
 
